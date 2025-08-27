@@ -12,7 +12,7 @@ export default function Counter() {
   // Read current counter value
   const { data, refetch } = useContractRead({
     address: counterAddress,
-    abi: counterABI,
+    abi:counterABI,
     functionName: "get",
     watch: true,
   });
